@@ -10,7 +10,19 @@ class MainMenuPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    Center;
+    return Scaffold(
+      backgroundColor: urColor,
+      appBar: AppBar(
+          title: const Text(
+        'Regemotor',
+        style: TextStyle(
+            color: Colors.white,
+            fontFamily: font,
+            fontWeight: FontWeight.bold,
+            fontSize: 25),
+      )),
+      body: Center(),
+    );
   }
 }
